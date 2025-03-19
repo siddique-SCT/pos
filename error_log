@@ -1,0 +1,235 @@
+[15-Mar-2025 10:37:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:37:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[15-Mar-2025 10:37:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:37:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[15-Mar-2025 10:39:04 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:39:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[15-Mar-2025 10:40:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:40:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[15-Mar-2025 10:40:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:40:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[15-Mar-2025 10:42:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:42:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[15-Mar-2025 10:42:22 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[15-Mar-2025 10:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[16-Mar-2025 03:40:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sattioe1_pos7.tax' doesn't exist in /home/sattioe1/softcomputech.com/pos/add_product.php:85
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/add_product.php(85): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/add_product.php on line 85
+[16-Mar-2025 03:48:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sattioe1_pos7.tax' doesn't exist in /home/sattioe1/softcomputech.com/pos/add_product.php:85
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/add_product.php(85): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/add_product.php on line 85
+[16-Mar-2025 04:01:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sattioe1_pos7`.`tax`, CONSTRAINT `tax_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `pos_product` (`product_id`) ON DELETE CASCADE) in /home/sattioe1/softcomputech.com/pos/add_product.php:85
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/add_product.php(85): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/add_product.php on line 85
+[16-Mar-2025 05:41:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ORD1742103686963' for key 'order_number' in /home/sattioe1/softcomputech.com/pos/order_ajax.php:100
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/order_ajax.php(100): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/order_ajax.php on line 100
+[16-Mar-2025 07:02:32 UTC] PHP Warning:  Undefined variable $tax_percent in /home/sattioe1/softcomputech.com/pos/edit_product.php on line 201
+[16-Mar-2025 07:02:32 UTC] PHP Warning:  Undefined variable $discount_percent in /home/sattioe1/softcomputech.com/pos/edit_product.php on line 205
+[16-Mar-2025 12:12:06 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:12:14 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:12:36 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:12:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:27 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:31 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:35 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:36 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:36 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:37 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:13:37 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:16:32 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:19:37 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:19:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:19:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:20:39 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:20:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:20:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_sale.php on line 18
+[16-Mar-2025 12:23:28 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:24:50 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:24:55 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:24:57 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:24:57 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:25:25 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:26:08 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:26:10 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:26:20 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:27:01 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:27:04 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:27:04 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:27:04 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:29:18 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:29:24 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:32:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:32:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:34:49 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/sattioe1/softcomputech.com/pos/add_order.php on line 18
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:56:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:56:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 64
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 132
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 157
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Undefined variable $confData in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 158
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Undefined variable $categorys in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/sattioe1/softcomputech.com/pos/add_order.php on line 196
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[16-Mar-2025 12:57:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/sattioe1/softcomputech.com/pos/add_order.php on line 376
+[17-Mar-2025 07:46:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.user_name' in 'SELECT' in /home/sattioe1/softcomputech.com/pos/sale_ajax.php:12
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/sale_ajax.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/sale_ajax.php on line 12
+[17-Mar-2025 07:47:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sattioe1_pos7.users' doesn't exist in /home/sattioe1/softcomputech.com/pos/sale_ajax.php:13
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/sale_ajax.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/sale_ajax.php on line 13
+[17-Mar-2025 13:49:10 UTC] PHP Fatal error:  Cannot redeclare generateShortcuts() (previously declared in /home/sattioe1/softcomputech.com/pos/add_order.php:11) in /home/sattioe1/softcomputech.com/pos/add_order.php on line 435
+[17-Mar-2025 13:49:13 UTC] PHP Fatal error:  Cannot redeclare generateShortcuts() (previously declared in /home/sattioe1/softcomputech.com/pos/add_order.php:11) in /home/sattioe1/softcomputech.com/pos/add_order.php on line 435
+[17-Mar-2025 14:07:47 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sattioe1/softcomputech.com/pos/order_ajax.php on line 178
+[17-Mar-2025 14:08:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sattioe1/softcomputech.com/pos/order_ajax.php on line 178
+[17-Mar-2025 14:08:29 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/sattioe1/softcomputech.com/pos/order_ajax.php on line 178
+[17-Mar-2025 14:13:33 UTC] PHP Warning:  Undefined array key 5 in /home/sattioe1/softcomputech.com/pos/order_ajax.php on line 20
+[17-Mar-2025 14:13:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc LIMIT 0, 10' at line 1 in /home/sattioe1/softcomputech.com/pos/order_ajax.php:43
+Stack trace:
+#0 /home/sattioe1/softcomputech.com/pos/order_ajax.php(43): PDO->query()
+#1 {main}
+  thrown in /home/sattioe1/softcomputech.com/pos/order_ajax.php on line 43
+[18-Mar-2025 06:48:00 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:48:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:48:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:48:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:49:00 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:49:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:49:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:49:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:49:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:49:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:49:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:49:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:49:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:49:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:49:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:49:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:50:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:50:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:50:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:50:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:51:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:51:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:51:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:51:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:52:17 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:52:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:52:18 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:52:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:52:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:52:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:52:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:52:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:52:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:52:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:52:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:52:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:55:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:55:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:55:32 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:55:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:57:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:57:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:57:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:57:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:57:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:57:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 06:57:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 06:57:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 07:00:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 07:00:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 07:00:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 07:00:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 07:00:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 07:00:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:16:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:16:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:16:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:16:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:16:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:16:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:16:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:16:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:16:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:16:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:16:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:16:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:17:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:17:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:17:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:17:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:17:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:17:47 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:17:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:24:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:24:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:25:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:25:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:25:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:25:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:40:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:40:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
+[18-Mar-2025 08:40:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 3
+[18-Mar-2025 08:40:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sattioe1/softcomputech.com/pos/dashboard.php:1) in /home/sattioe1/softcomputech.com/pos/auth_function.php on line 20
